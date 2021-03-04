@@ -1,0 +1,16 @@
+{
+  "name": "rir/payment-providers",
+  "description": "Laravel payment providers",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Toropin",
+      "email": "at@rusatom.dev"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Rir\\PaymentProviders\\": "/"
+    }
+  }
+}

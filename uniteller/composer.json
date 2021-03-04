@@ -1,0 +1,26 @@
+{
+  "name": "rir/payment-providers/uniteller",
+  "description": "Uniteller payment provider for Laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Toropin",
+      "email": "at@rusatom.dev"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rir\\PaymentProviders\\Uniteller\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Rir\\PaymentProviders\\Uniteller\\UnitellerServiceProvider"
+      ]
+    }
+  }
+}
